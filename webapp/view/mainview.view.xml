@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="juliofg.invoices.controller.mainview"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+                <content>   
+                                 <Text text="Hola Mundo jojojo" ></Text>
+					</content >
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
